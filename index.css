@@ -1,0 +1,47 @@
+.thanksgivinglist {
+    display: flex; 
+    justify-content: space-around;
+}
+
+h2 {
+    background-color: chocolate;
+    border: solid brown; 
+    padding: 3px;
+    text-align: center; 
+}
+
+h3 {
+    background-color: orange;
+    padding-left: 10px; 
+}
+
+img {
+    width: 25vw;
+    margin: 10px; 
+    border: solid brown 1px; 
+    padding: 5px; 
+}
+
+.ingredients {
+    background-color: rgba(255, 166, 0, 0.5); 
+}
+
+.supplies {
+    background-color: rgba(255, 166, 0, 0.5); 
+}
+
+.list {
+    border: dashed rgb(102, 68, 0) 3px;;
+}
+
+#turkeylist {
+    background-color: rgb(153, 102, 0);
+}
+
+#veggielist {
+    background-color: rgb(115, 77, 38); 
+}
+
+#pielist {
+    background-color: rgb(102, 51, 0); 
+}
