@@ -22,30 +22,11 @@ if (main === entree) {
 meal.push(app);
 console.log(meal);
 
-function toggleTurkeyList() {
-    let list = document.getElementById('turkeylist');
+function toggleList(id) {
+    let list = document.getElementById(id);
     if (list.style.display === "none") {
         list.style.display = "block"
     } else {
         list.style.display = "none"
     };
 }
-
-function toggleVeggieList() {
-    let list = document.getElementById('veggielist');
-    if (list.style.display === "none") {
-        list.style.display = "block"
-    } else {
-        list.style.display = "none"
-    };
-}
-
-function togglePieList() {
-    let list = document.getElementById('pielist');
-    if (list.style.display === "none") {
-        list.style.display = "block"
-    } else {
-        list.style.display = "none"
-    };
-}
-
