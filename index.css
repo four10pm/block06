@@ -31,11 +31,13 @@ img {
 }
 
 .list {
-    border: dashed rgb(102, 68, 0) 3px;;
+    border: dashed rgb(102, 68, 0) 3px;
+    display: block; 
 }
 
 #turkeylist {
     background-color: rgb(153, 102, 0);
+    display: block;
 }
 
 #veggielist {
