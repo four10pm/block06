@@ -11,6 +11,7 @@ const b=3;
 const meal = [entree, side, dessert];
 // console.log ("Today's menu includes " + meal);
 // console.log ("Today's menu includes " + meal2);
+console.log (`Today's meal is ${entree}, ${side}, and ${dessert}. ${greeting}`);
 
 let app; 
 let main = "Turkey";
@@ -20,7 +21,7 @@ if (main === entree) {
     app = "Baked Brie"
 }
 meal.push(app);
-console.log(meal);
+// console.log(meal);
 
 function toggleList(id) {
     let list = document.getElementById(id);
